@@ -10,14 +10,14 @@ public class LaboratorioFiguras {
 
         FiguraGeometrica[] figuras = {triangulo, retangulo};
         
-        System.out.println("=== LABORATÓRIO DE FIGURAS GEOMÉTRICAS ===\n");
+        System.out.println("=== LABORATORIO DE FIGURAS GEOMETRICAS ===\n");
         
         // Demonstrando polimorfismo dinâmico
         for (FiguraGeometrica figura : figuras) {
             System.out.println(figura.getInfo());
             System.out.println("Detalhes: " + figura.getDetalhes());
-            System.out.printf("Área: %.2f%n", figura.calcularArea());
-            System.out.printf("Perímetro: %.2f%n", figura.calcularPerimetro());
+            System.out.printf("Area: %.2f%n", figura.calcularArea());
+            System.out.printf("Perimetro: %.2f%n", figura.calcularPerimetro());
             System.out.println("-----------------------------------");
         }
         
